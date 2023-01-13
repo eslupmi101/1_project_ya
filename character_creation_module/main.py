@@ -82,7 +82,6 @@ def start_training(char_name, char_class):
 
 def choice_char_class():
     """Выбор персонажа."""
-    run_screensaver()
     approve_choice = None
     char_class = None
     while approve_choice != 'y':
@@ -109,6 +108,7 @@ def choice_char_class():
 
 
 if __name__ == '__main__':
+    run_screensaver()
     """Основной сценарий игры."""
     print('Приветствую тебя, искатель приключений!')
     print('Прежде чем начать игру...')
